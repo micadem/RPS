@@ -20,6 +20,7 @@ def cpu_choice():
     cpu_move = choice(game_list)
     return cpu_move
 
+
 def check(player_move,cpu_move):
     while player_move == cpu_move:
         print("we have a tie \nLet's play again!")
